@@ -18,4 +18,6 @@ model Article {
   image String
   title String
   body String
+  externalLink String
+  dateCreated   DateTime @default(now())
 }
